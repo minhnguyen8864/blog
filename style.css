@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=PT+Sans:ital,wght@0,400;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+/* Phần Header*/
+.navbar {
+    width: 100%;
+    height: 60px;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    z-index: 999;
+}
+
+.name {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-weight: 700;
+    font-size: 44px;
+    color: white;
+    margin-right: 5%;
+}
+
+.navbar-item {
+    font-size: 20px;
+    font-weight: 700;
+    color: #f7f7f7;;
+    padding: 0 20px;
+}
+
+.margin-right {
+    margin-right: 10%;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.background img {
+    width: 100%;
+    height: 100%;
+}
+
+.background-hi {
+    position: absolute;
+    top: 300px;
+    right: 110px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+.background-hi p {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 20px;
+    margin: 10px 0 0 50px;
+}
+
+/* Phần body*/
+
+.body {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.item {
+    width: 28%;
+    margin: 0 10px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+}
+
+.item-img {
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.item-title {
+    color: red;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.item-percent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+}
+
+.item-percent-box {
+    margin: 10px 0;
+}
+
+.box-des {
+    text-align: center;
+    font-size: 18px;
+}
+
+.box-per {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: #00DE10;
+    margin: 10px 0;
+}
+
+.box-money {
+    text-align: center;
+    font-size: 18px;
+}
+
+.item-description {
+    margin-bottom: 10px;
+}
+
+.item-description-content {
+    line-height: 2rem;
+    border-bottom: 1px solid #ddd;;
+    margin: 0 8px;
+    color: #505050;
+    font-size: 18px;
+}
+
+.item-description-content i {
+    margin-right: 6px;
+    color: #00DE10;
+}
+
+.btn {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #05A621;;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* Phần chân trang */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    background-color: #f3f3e5;
+}
+
+.footer i,
+.footer img {
+    margin-right: 6px;
+}
+
+.footer img {
+    position: relative;
+    width: 16px;
+    top: 2px;
+}
+
+.footer a {
+    margin: 0 20px;
+    color: #505050;
+}
