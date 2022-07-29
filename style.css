@@ -12,7 +12,103 @@ a {
     text-decoration: none;
 }
 
+
+@media screen and (max-width: 415px) {
+    .container .navbar {
+       height: 30px;
+    }
+
+    .navbar .name {
+        font-size: 22px;
+    }
+
+    .navbar .navbar-item {
+        font-size: 10px;
+        padding: 0 6px;
+    }
+
+    .navbar .margin-right {
+        margin-right: 4px;
+    }
+
+    .background .background-hi {
+        top: 110px;
+        font-size: 10px;
+        right: 4px;
+    }
+
+    .background .background-hi .background-desc {
+        font-size: 7px;
+        margin: 8px 0 0 4px;
+    }
+
+    .background-desc .author {
+        margin-left: 160px;
+        font-size: 7px;
+    }
+
+    .container .body {
+        width: 100%;
+        display: inline-block;
+        margin: 10px 0;
+        padding: 0 11%;
+    }
+
+    @media screen and (max-width: 413px) {
+        .container .body {
+            padding: 0 10%;
+        }
+    }
+
+    @media screen and (max-width: 394px) {
+        .container .body {
+            padding: 0 9%;
+        }
+    }
+
+    @media screen and (max-width: 391px) {
+        .container .body {
+            padding: 0 8%;
+        }
+    }
+
+    @media screen and (max-width: 376px) {
+        .container .body {
+            padding: 0 6%;
+        }
+    }
+
+    @media screen and (max-width: 361px) {
+        .container .body {
+            padding: 0 4%;
+        }
+    }
+
+    .body .item {
+        width: 312px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    .item .btn {
+        margin: 10px auto 0;
+    }
+
+    .container .footer {
+        font-size: 10px;
+    }
+
+    .container .footer a {
+        margin: 0 10px;
+    }
+
+    .container .footer img {
+        width: 11px;
+    }
+}
+
 .container {
+    position: relative;
     width: 100%;
     height: 100%;
 }
@@ -60,7 +156,7 @@ a {
 }
 
 .background-hi {
-    position: absolute;
+    position: absolute; 
     top: 300px;
     right: 110px;
     font-size: 24px;
@@ -68,10 +164,16 @@ a {
     font-family: 'Edu VIC WA NT Beginner', cursive;
 }
 
-.background-hi p {
+.background-hi .background-desc {
     font-family: 'Edu VIC WA NT Beginner', cursive;
     font-size: 20px;
     margin: 10px 0 0 50px;
+}
+
+.author {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    margin-left: 500px;
+    font-size: 20px;
 }
 
 /* Phần body*/
@@ -87,6 +189,7 @@ a {
 
 .item {
     width: 28%;
+    height: 100%;
     margin: 0 10px;
     box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
     border-radius: 10px;
